@@ -12,6 +12,11 @@ body {
   background: #ffffff;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .main-header {
   position: absolute;
   width: 1920px;
@@ -727,6 +732,59 @@ body {
   color: #fa5e01;
 }
 
+#footer {
+  position: absolute;
+  width: 1920px;
+  height: 428px;
+  left: 0px;
+  top: 4800px;
+}
+
+#footer p {
+  position: absolute;
+  width: 443px;
+  height: 112px;
+  left: 280px;
+  top: 70px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#footer address {
+  position: absolute;
+  width: 365px;
+  height: 56px;
+  left: 316px;
+  top: 230px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+#footer .address-icon {
+  position: absolute;
+  left: 284px;
+  top: 232px;
+}
+
+#footer .telephone-icon {
+  position: absolute;
+  left: 283px;
+  top: 323px;
+}
+
+#footer .tel-num {
+  position: absolute;
+  width: 139px;
+  height: 28px;
+  left: 316px;
+  top: 318px;
+
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+}
 .orrange-background {
   background-color: #fa5e01;
   color: #ffffff;
