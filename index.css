@@ -204,11 +204,6 @@ body {
   text-transform: uppercase;
 }
 
-.orrange-background {
-  background-color: #fa5e01;
-  color: #ffffff;
-}
-
 #short-info1,
 #short-info2,
 #short-info3,
@@ -253,15 +248,10 @@ body {
   left: 52px;
 }
 
-.about-school .line {
+.about-school .orrange-line {
   position: absolute;
-  width: 150px;
-  height: 0px;
   left: 280px;
   top: 1495px;
-  background-color: #fa5e01;
-
-  border: 5px solid #fa5e01;
 }
 
 .about-school h1 {
@@ -441,4 +431,102 @@ body {
   font-size: 22px;
   line-height: 48px;
   color: #fa5e01;
+}
+
+#principal-quote {
+  position: absolute;
+  width: 1920px;
+  height: 650px;
+  left: 0px;
+  top: 2813px;
+  background: #fff9f5;
+}
+
+#principal-quote .principal-img {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  left: 172px;
+  bottom: 140px;
+
+  background: url(images/principal_photo.jpg), #d9d9d9;
+  background-size: cover;
+  background-position: center;
+}
+
+#principal-quote .orrange-line {
+  position: absolute;
+  left: 970px;
+  top: 89px;
+}
+
+#principal-quote h1 {
+  position: absolute;
+  width: 666px;
+  height: 68px;
+  left: 970px;
+  top: 109px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+  color: #25201d;
+}
+
+#principal-quote .principal-quote-main {
+  position: absolute;
+  width: 669px;
+  height: 180px;
+  left: 970px;
+  top: 247px;
+
+  font-weight: 400;
+  font-size: 26px;
+  font-style: italic;
+  line-height: 36px;
+  color: #25201d;
+}
+
+#principal-quote .quote-line {
+  position: absolute;
+  width: 70px;
+  height: 0px;
+  left: 970px;
+  top: 500px;
+  border: 1px solid rgba(37, 32, 29, 0.5);
+}
+
+#principal-quote .principal-name {
+  position: absolute;
+  width: 224px;
+  height: 46px;
+  left: 1070px;
+  top: 477px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 46px;
+  color: #25201d;
+}
+
+#principal-quote .principal-designaion {
+  position: absolute;
+  width: 259px;
+  height: 30px;
+  left: 1070px;
+  top: 531px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #fa5e01;
+}
+
+.orrange-background {
+  background-color: #fa5e01;
+  color: #ffffff;
+}
+
+.orrange-line {
+  width: 150px;
+  height: 0px;
+  background-color: #fa5e01;
+  border: 5px solid #fa5e01;
 }
