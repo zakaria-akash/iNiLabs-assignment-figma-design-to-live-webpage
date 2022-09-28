@@ -1,3 +1,7 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
 body {
   font-family: "Open Sans";
   font-style: normal;
@@ -207,34 +211,6 @@ body {
   color: #ffffff;
 }
 
-/* #short-info1,
-#short-info2,
-#short-info3,
-#short-info4 {
-  position: absolute;
-  width: 480px;
-  height: 400px;
-  top: 890px;
-}
-#short-info1 {
-  left: 0px;
-}
-#short-info2 {
-  left: 480px;
-}
-#short-info3 {
-  left: 960px;
-}
-#short-info4 {
-  left: 1440px;
-}
-
-.short-info * {
-  position: absolute;
-  padding: 0px;
-  margin: 0px;
-} */
-
 #short-info1,
 #short-info2,
 #short-info3,
@@ -277,4 +253,142 @@ body {
 .short-info img {
   top: 52px;
   left: 52px;
+}
+
+.about-school .line {
+  position: absolute;
+  width: 150px;
+  height: 0px;
+  left: 280px;
+  top: 1495px;
+  background-color: #fa5e01;
+
+  border: 5px solid #fa5e01;
+}
+
+.about-school h1 {
+  position: absolute;
+  width: 394px;
+  height: 82px;
+  left: 280px;
+  top: 1515px;
+
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 82px;
+
+  color: #25201d;
+}
+
+.about-school div {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 246px;
+  height: 70px;
+  left: 280px;
+  top: 1867px;
+
+  border: 2px solid #fa5e01;
+}
+
+.about-school p {
+  position: absolute;
+  width: 542px;
+  height: 136px;
+  left: 280px;
+  top: 1667px;
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+
+  color: #000000;
+}
+
+.about-school div p {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 54px;
+  top: 9px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 48px;
+
+  color: #fa5e01;
+}
+
+.about-school .about-school-background {
+  background-image: url("images/about-school-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-clip: border-box;
+  position: absolute;
+  width: 778px;
+  height: 464px;
+  left: 970px;
+  top: 1490px;
+  border: none;
+  z-index: 1;
+}
+.about-school .about-school-stat {
+  position: absolute;
+  width: 920px;
+  height: 246px;
+  left: 720px;
+  top: 1832px;
+
+  background: #fff9f5;
+  border: none;
+  z-index: 100;
+}
+
+#tchr-num,
+#std-num,
+#grad-num {
+  position: absolute;
+  top: 64px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 82px;
+  color: #25201d;
+}
+
+#tchr-num {
+  left: 125px;
+}
+#std-num {
+  left: 333px;
+}
+#grad-num {
+  left: 638px;
+}
+
+#tchr-txt,
+#std-txt,
+#grad-txt {
+  position: absolute;
+
+  top: 156px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #25201d;
+}
+
+#tchr-txt {
+  left: 120px;
+}
+#std-txt {
+  left: 380px;
+}
+#grad-txt {
+  left: 679px;
 }
