@@ -1,12 +1,10 @@
 * {
   padding: 0px;
   margin: 0px;
-}
-body {
   font-family: "Open Sans";
   font-style: normal;
-  margin: 0;
-
+}
+body {
   position: relative;
   width: 1920px;
   height: 5216px;
@@ -280,18 +278,6 @@ body {
   color: #25201d;
 }
 
-.about-school div {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 246px;
-  height: 70px;
-  left: 280px;
-  top: 1867px;
-
-  border: 2px solid #fa5e01;
-}
-
 .about-school p {
   position: absolute;
   width: 542px;
@@ -306,7 +292,19 @@ body {
   color: #000000;
 }
 
-.about-school div p {
+.about-school .learn-more {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 246px;
+  height: 70px;
+  left: 280px;
+  top: 1867px;
+
+  border: 2px solid #fa5e01;
+}
+
+.about-school .learn-more p {
   position: absolute;
   width: 134px;
   height: 48px;
@@ -391,4 +389,56 @@ body {
 }
 #grad-txt {
   left: 679px;
+}
+
+#apply-fall {
+  position: absolute;
+  width: 900px;
+  height: 295px;
+  left: 510px;
+  top: 2178px;
+}
+
+#apply-fall h2 {
+  position: absolute;
+  width: 365px;
+  height: 54px;
+  left: 48px;
+  top: 48px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+}
+
+#apply-fall p {
+  position: absolute;
+  width: 768px;
+  height: 25px;
+  left: 48px;
+  top: 126px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#apply-fall .apply-btn {
+  position: absolute;
+  width: 199px;
+  height: 56px;
+  left: 48px;
+  top: 191px;
+  border: none;
+  background: #ffffff;
+}
+
+#apply-fall .apply-btn span {
+  position: absolute;
+  width: 115px;
+  height: 48px;
+  left: 42px;
+  top: 4px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 48px;
+  color: #fa5e01;
 }
