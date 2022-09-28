@@ -91,14 +91,14 @@ body {
   background-clip: border-box;
 
   z-index: 0;
-  padding: none;
-  margin: none;
+  /* padding: 0px;
+  margin: 0px; */
 }
 
-.campus-overview-content {
+/* .campus-overview-content {
   position: relative;
   display: block;
-}
+} */
 
 .campus-overview-content * {
   position: absolute;
@@ -152,7 +152,6 @@ body {
   font-weight: 600;
   font-size: 24px;
   line-height: 48px;
-  color: #ffffff;
   border: none;
 }
 
@@ -167,7 +166,6 @@ body {
   font-weight: 600;
   font-size: 44px;
   line-height: 48px;
-  color: #ffffff;
 }
 
 .play-btn i {
@@ -206,4 +204,77 @@ body {
 
 .orrange-background {
   background-color: #fa5e01;
+  color: #ffffff;
+}
+
+/* #short-info1,
+#short-info2,
+#short-info3,
+#short-info4 {
+  position: absolute;
+  width: 480px;
+  height: 400px;
+  top: 890px;
+}
+#short-info1 {
+  left: 0px;
+}
+#short-info2 {
+  left: 480px;
+}
+#short-info3 {
+  left: 960px;
+}
+#short-info4 {
+  left: 1440px;
+}
+
+.short-info * {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+} */
+
+#short-info1,
+#short-info2,
+#short-info3,
+#short-info4 {
+  position: absolute;
+  width: 480px;
+  height: 400px;
+  top: 890px;
+}
+
+#short-info1 {
+  left: 0px;
+}
+#short-info2 {
+  left: 480px;
+}
+#short-info3 {
+  left: 960px;
+}
+#short-info4 {
+  left: 1440px;
+}
+
+.short-info * {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+}
+
+.short-info p {
+  width: 286px;
+  height: 180px;
+  top: 172px;
+  left: 48px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.short-info img {
+  top: 52px;
+  left: 52px;
 }
